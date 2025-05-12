@@ -1,19 +1,29 @@
+import React from "react";
 
-  import React from "react"
-  export default function Home() {
-return (
-    <div> 
-      <section className="bg-white py-12">
+export default function Home() {
+  return (
+    <div className="bg-red-500 text-black min-h-screen">
+      {/* Header */}
+      <header className="bg-white shadow-md py-4">
+        <div className="container mx-auto px-4 text-center">
+          <h1 className="text-3xl font-bold">My Portfolio</h1>
+        </div>
+      </header>
+
+      {/* Main Content */}
+      <section className="py-12">
         <div className="container mx-auto px-4">
-          <div className="bg-gray-100 p-6 rounded-lg shadow-md mb-8">
-            <h2 className="text-2xl font-bold text-gray-800 mb-6 text-center">SHANIBA M</h2>
-            <p className="text-gray-700 text-center mb-8">
+          <div className="bg-white p-6 rounded-lg shadow-md mb-8">
+            <h2 className="text-2xl font-bold text-center">SHANIBA M</h2>
+            <p className="text-center mt-4">
               Dynamic and enthusiastic MSc Computer Science student with a strong foundation in programming, algorithms, and data-driven solutions. Passionate about leveraging technology to solve real-world problems creatively. Eager to contribute to innovative projects and grow in the software development field.
             </p>
           </div>
-          <div id="education" className="bg-gray-100 p-6 rounded-lg shadow-md mb-8">
-            <h3 className="text-xl font-semibold text-gray-800 mb-4">Education</h3>
-            <ul className="list-disc list-inside text-gray-700">
+
+          {/* Education */}
+          <div id="education" className="bg-white p-6 rounded-lg shadow-md mb-8">
+            <h3 className="text-xl font-semibold mb-4">Education</h3>
+            <ul className="list-disc list-inside">
               <li>
                 <strong>MSc in Computer Science</strong>, University of Calicut (2022 – 2024)
                 <p>A specialized curriculum covering advanced programming, AI, algorithms, and data science.</p>
@@ -24,37 +34,47 @@ return (
               </li>
             </ul>
           </div>
-          <div id="project" className="bg-gray-100 p-6 rounded-lg shadow-md mb-8">
-             <h3 className="text-xl font-semibold text-gray-800 mb-4">projects</h3>
-             <li> BLIND CAP: A cap for a blind with a website
-The blind cap with embedded system is a revolutionary device designed to enhance the safety and
-independence of visually impaired individuals. Equipped with sensors and a microcontroller, the cap
-detects obstacles and alerts the wearer through vibrations or auditory signals.
-Requirements Python Django, Open Cv,Sqlite ,HTML,CSS ,Raspberry pi ,Camera</li>
-<li>Hotel management: A web site for hotel booking
-The Hotel Management System developed using PHP offers a comprehensive solution for efficiently
-managing various aspects of hotel operations.</li>
+
+          {/* Projects */}
+          <div id="project" className="bg-white p-6 rounded-lg shadow-md mb-8">
+            <h3 className="text-xl font-semibold mb-4">Projects</h3>
+            <ul className="list-disc list-inside">
+              <li>
+                <strong>Blind Cap:</strong> A cap for the blind with a website. An embedded system designed to enhance the safety of visually impaired individuals.  
+                <br />Technologies: Python, Django, OpenCV, SQLite, HTML, CSS, Raspberry Pi, Camera
+              </li>
+              <li>
+                <strong>Hotel Management System:</strong> A hotel booking site developed using PHP to manage hotel operations efficiently.
+              </li>
+            </ul>
           </div>
-          <div id="skills" className="bg-gray-100 p-6 rounded-lg shadow-md mb-8">
-            <h3 className="text-xl font-semibold text-gray-800 mb-4">Technical Skills</h3>
-            <ul className="list-disc list-inside text-gray-700"></ul>
+
+          {/* Skills */}
+          <div id="skills" className="bg-white p-6 rounded-lg shadow-md mb-8">
+            <h3 className="text-xl font-semibold mb-4">Technical Skills</h3>
+            <ul className="list-disc list-inside">
               <li>Programming Languages: Python, Java, C, C++, JavaScript</li>
               <li>Web Development: HTML, CSS, JavaScript</li>
               <li>Frameworks: Django, Flask</li>
               <li>Databases: MySQL, PostgreSQL, SQLite</li>
+            </ul>
           </div>
-          <div id="contact" className="bg-gray-100 p-6 rounded-lg shadow-md mb-8">
-            <h3 className="text-xl font-semibold text-gray-800 mb-4">Contact</h3>
-            <ul className="list-disc list-inside text-gray-700"></ul>
-            <p className="text-gray-700">fhjhhu 
-              Email: <a href="mailto:shanibam2000@gmail.com" className="text-blue-500">shanibam2000@gmail.com</a>
-            </p>
-            <p className="text-gray-700">Phone: +91 99473 29033</p>
-            <p className="text-gray-700">Location: Malappuram, Kerala, India</p>
-            <p className="text-gray-700">Nationality: Indian</p>
+
+          {/* Contact */}
+          <div id="contact" className="bg-white p-6 rounded-lg shadow-md mb-8">
+            <h3 className="text-xl font-semibold mb-4">Contact</h3>
+            <p>Email: <a href="mailto:shanibam2000@gmail.com" className="text-blue-500">shanibam2000@gmail.com</a></p>
+            <p>Phone: +91 99473 29033</p>
+            <p>Location: Malappuram, Kerala, India</p>
+            <p>Nationality: Indian</p>
           </div>
         </div>
       </section>
-    </div> 
-);
-  }
+
+      {/* Footer */}
+      <footer className="bg-white py-4 text-center shadow-inner">
+        <p className="text-sm">&copy; 2025 Shaniba M. All rights reserved.</p>
+      </footer>
+    </div>
+  );
+}
