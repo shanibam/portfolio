@@ -7,7 +7,7 @@ export default function Home() {
       {/* Header */}
       <header className="bg-white shadow-md py-4">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-3xl font-bold"> Portfolio</h1>
+          <h1 className="text-3xl font-bold">  hhsiue Portfolio</h1>
         </div>
       </header>
 
@@ -71,8 +71,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      <Footer />
+<Footer />
     </div>
   );
 }
