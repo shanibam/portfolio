@@ -1,8 +1,9 @@
 import React from "react";
+import Footer from "./components/footer";
 
 export default function Home() {
   return (
-    <div className="bg-red-500 text-black min-h-screen">
+    <div className="bg-red-300 text-black min-h-screen">
       {/* Header */}
       <header className="bg-white shadow-md py-4">
         <div className="container mx-auto px-4 text-center">
@@ -71,10 +72,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Footer */}
-      <footer className="bg-white py-4 text-center shadow-inner">
-        <p className="text-sm">&copy; 2025 Shaniba M. All rights reserved.</p>
-      </footer>
+      <Footer />
     </div>
   );
 }
