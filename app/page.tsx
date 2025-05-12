@@ -15,7 +15,7 @@ export default function Home() {
       {/* Main Content */}
       <section className="py-12">
         <div className="container mx-auto px-4">
-          <div className="bg-white p-6 rounded-lg shadow-md mb-8">
+          <div className="color p-6 rounded-lg shadow-md mb-8">
             <h2 className="text-2xl font-bold text-center">SHANIBA M</h2>
             <p className="text-center mt-4">
               Dynamic and enthusiastic MSc Computer Science student with a strong foundation in programming, algorithms, and data-driven solutions. Passionate about leveraging technology to solve real-world problems creatively. Eager to contribute to innovative projects and grow in the software development field.
@@ -23,7 +23,7 @@ export default function Home() {
           </div>
 
           {/* Education */}
-          <div id="education" className="bg-white p-6 rounded-lg shadow-md mb-8">
+          <div id="education" className="color p-6 rounded-lg shadow-md mb-8">
             <h3 className="text-xl font-semibold mb-4">Education</h3>
             <ul className="list-disc list-inside">
               <li>
@@ -38,7 +38,7 @@ export default function Home() {
           </div>
 
           {/* Projects */}
-          <div id="project" className="bg-white p-6 rounded-lg shadow-md mb-8">
+          <div id="project" className="color p-6 rounded-lg shadow-md mb-8">
             <h3 className="text-xl font-semibold mb-4">Projects</h3>
             <ul className="list-disc list-inside">
               <li>
@@ -52,7 +52,7 @@ export default function Home() {
           </div>
 
           {/* Skills */}
-          <div id="skills" className="bg-white p-6 rounded-lg shadow-md mb-8">
+          <div id="skills" className="color p-6 rounded-lg shadow-md mb-8">
             <h3 className="text-xl font-semibold mb-4">Technical Skills</h3>
             <ul className="list-disc list-inside">
               <li>Programming Languages: Python, Java, C, C++, JavaScript</li>
@@ -63,7 +63,7 @@ export default function Home() {
           </div>
 
           {/* Contact */}
-          <div id="contact" className="bg-white p-6 rounded-lg shadow-md mb-8">
+          <div id="contact" className="color p-6 rounded-lg shadow-md mb-8">
             <h3 className="text-xl font-semibold mb-4">Contact</h3>
             <p>Email: <a href="mailto:shanibam2000@gmail.com" className="text-blue-500">shanibam2000@gmail.com</a></p>
             <p>Phone: +91 99473 29033</p>
